@@ -62,7 +62,7 @@ WORKDIR /var/www/html
 
 # https://www.drupal.org/node/3060/release
 ENV DRUPAL_VERSION 9.0.0-beta2
-ENV DRUPAL_MD5 33568e2d009a166c54ae862fda2a8823
+ENV DRUPAL_MD5 8c45d8abb2a6f09326de40ae845a4435
 
 RUN set -eux; \
 	curl -fSL "https://ftp.drupal.org/files/projects/drupal-${DRUPAL_VERSION}.tar.gz" -o drupal.tar.gz; \
